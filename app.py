@@ -190,3 +190,18 @@ if st.button("▶ Run PSO Optimization"):
 
     st.subheader("📄 Dataset Preview")
     st.dataframe(data.head())
+
+# =====================================================
+# Conclusion
+# =====================================================
+st.subheader("✅ Conclusion")
+
+st.markdown(
+    """
+    The PSO-optimized regression model effectively predicts metro passenger demand  
+    by learning optimal model parameters using swarm intelligence.
+
+    The results demonstrate how **optimization and interpretability** can support  
+    **data-driven decision-making** in public transportation planning.
+    """
+)
