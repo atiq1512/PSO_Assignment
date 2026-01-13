@@ -13,6 +13,18 @@ st.title("🚍 Multi-Objective Optimization using PSO")
 st.write("Objectives: **Minimize Distance and Fare**")
 
 # =========================
+# PSO EXPLANATION
+# =========================
+st.subheader("🤔 What is Particle Swarm Optimization (PSO)?")
+st.markdown("""
+- **Inspired by nature**: PSO mimics how birds or fish search for food together.
+- **Particles**: Each solution is a 'particle' that moves around searching for the best route.
+- **Memory**: Each particle remembers its own best solution (**pbest**) and knows the global best (**gbest**).
+- **Iteration**: Over multiple iterations, particles adjust their position to find the optimal trade-off between distance and fare.
+- **Weighted Sum**: You can prioritize **distance** or **fare** using adjustable weights.
+""")
+
+# =========================
 # AUTO LOAD DATASET
 # =========================
 DATA_PATH = "delhi_metro_updated.csv"
